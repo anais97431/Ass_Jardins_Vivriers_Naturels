@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /footer.php
+Disallow: /admin.php
+Disallow: /contact.php
+Disallow: /mentions_legales.php
