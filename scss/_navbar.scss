@@ -1,0 +1,15 @@
+#nav_navbar{
+    background-color: rgb(35, 134, 126) !important;
+}
+
+
+.lien_ul_navbar .lien_li_navbar .lien_navbar {
+    color: white ;
+    
+    
+    font-size: 15px;
+    font-family: 'Courgette', cursive;
+    &:hover{
+        color: rgb(197, 236, 158);
+}
+}

@@ -1,0 +1,418 @@
+//:::::::: CSS POUR LES CARDS ::::::://
+// .scene {
+
+//   text-align: center;
+//   width: 300px;
+//   height: 500px;
+//   perspective: 800px;
+//   margin: 20px auto;
+
+// }
+
+// .flip {
+//   transform-style: preserve-3d;
+
+// }
+
+// .flip,
+// .flip>div {
+//   width: inherit;
+//   height: inherit;
+//   transition: transform 1s;
+//   -webkit-transition: transform 1s;
+//   -moz-transition: transform 1s;
+//   -ms-transition: transform 1s;
+//   -o-transition: transform 1s;
+// }
+
+// .flip>div {
+
+//   position: absolute;
+//   backface-visibility: hidden;
+// }
+
+// .avant {
+//   background-image: url("../photos/images_retouche/jardin_fleuri5.jpg");
+//   background-size: cover;
+//   border-radius: 20px;
+
+
+// }
+
+// .arriere {
+//   background-image: url("../photos/images_retouche/jardin_2.jpg");
+//   background-size: cover;
+//   transform: rotateY(180deg);
+//   border-radius: 20px;
+
+// }
+
+// .scene:hover .flip {
+
+//   transform: rotateY(180deg);
+//   -webkit-transform: rotateY(180deg);
+//   -moz-transform: rotateY(180deg);
+//   -ms-transform: rotateY(180deg);
+//   -o-transform: rotateY(180deg);
+// }
+
+// .arriere p,
+// .avant p {
+
+//   text-align: center;
+//   font-size: 20px;
+//   color: white;
+//   perspective: 200px;
+//   text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em black, 0 0 0.2em black;
+// }
+
+
+// .avant p,
+// .arriere p {
+//   margin-top: 200px;
+// }
+
+//::::::::::: LE VIVRIER C'EST QUOI ::::::::::://
+.bandeau_text_corps {
+  background-color: $colorLightGreen;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bandeau_text_corps .text_entete {
+  text-align: center;
+  font-family: 'Dosis';
+  font-size: 25px;
+  color: white;
+}
+
+.bandeau_text_corps .text_entete h3 {
+  text-align: center;
+  font-family: 'Dosis';
+  font-weight: bold;
+  color: white;
+}
+
+.bandeau_text_corps .text_entete .leVivrier {
+
+  font-family: 'Dosis';
+  text-align: center;
+  font-size: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  margin-top: 50px;
+
+  &:hover {
+    background-color: $colorDarkGreen;
+
+  }
+
+}
+
+.bandeau_text_corps .text_entete .leVivrier a {
+  text-align: center;
+  color: $colorDarkGreen;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+
+  &:hover {
+    color: white;
+
+  }
+}
+
+.bandeau_text_corps .bandeau_index_corps {
+  text-align: center;
+
+}
+
+.bandeau_text_corps .bandeau_index_corps_feuilles .img_petale {
+  width: 80px;
+  margin-left: 400px;
+}
+
+.bandeau_text_corps .bandeau_index_corps .img_bourdon {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  width: 600px;
+  height: auto;
+  clip-path: circle(200px at center);
+  margin-top: -40px;
+}
+
+//::::::::::: SE FAIRE DU BIEN ::::::::::://
+.bandeau_text_corps2 {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bandeau_text_corps2 .text_entete2 {
+  text-align: center;
+  font-family: 'Dosis';
+  font-size: 25px;
+  color: black;
+}
+
+.bandeau_text_corps2 .text_entete2 h3 {
+  text-align: center;
+  font-family: 'Dosis';
+  font-weight: bold;
+  color: $colorYellow;
+}
+
+.bandeau_text_corps2 .text_entete2 .seFaireDuBien {
+
+  font-family: 'Dosis';
+  text-align: center;
+  font-size: 20px;
+  background-color: $colorYellow;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  margin-top: 50px;
+
+  &:hover {
+    background-color: $colorBrown;
+
+  }
+
+}
+
+.bandeau_text_corps2 .text_entete2 .seFaireDuBien a {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+
+}
+
+.bandeau_text_corps2 .bandeau_index_corps2 {
+  text-align: center;
+
+}
+
+.bandeau_text_corps2 .bandeau_index_corps_feuilles2 .img_petale {
+  width: 80px;
+  margin-left: 150px
+}
+
+.bandeau_text_corps2 .bandeau_index_corps2 .img_fleurs {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  width: 600px;
+  height: auto;
+  clip-path: circle(200px at center);
+  margin-top: -40px;
+}
+
+//::::::::::: QUI VOUS FAIT DU BIEN ::::::::::://
+.bandeau_text_corps3 {
+  background-color: $colorLightGreen;
+  padding-top: 50px;
+  // padding-bottom: 50px;
+}
+
+.bandeau_text_corps3 .text_entete3 {
+  text-align: center;
+  font-family: 'Dosis';
+  font-size: 25px;
+  color: white;
+}
+
+.bandeau_text_corps3 .text_entete3 h3 {
+  text-align: center;
+  font-family: 'Dosis';
+  font-weight: bold;
+  color: white;
+}
+
+.bandeau_text_corps3 .text_entete3 .quiFaitDuBien {
+
+  font-family: 'Dosis';
+  text-align: center;
+  font-size: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+
+
+  &:hover {
+    background-color: $colorDarkGreen;
+
+  }
+
+}
+
+.bandeau_text_corps3 .text_entete3 .quiFaitDuBien a {
+  text-align: center;
+  color: $colorDarkGreen;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+
+  &:hover {
+    color: white;
+
+  }
+}
+
+.bandeau_text_corps3 .bandeau_index_corps3 {
+  text-align: center;
+
+}
+
+.bandeau_text_corps3 .bandeau_index_corps_feuilles3 .img_petale {
+  width: 80px;
+  margin-left: 400px;
+}
+
+.bandeau_text_corps3 .bandeau_index_corps3 .img_plantation {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  width: auto;
+  height: 650px;
+  clip-path: circle(200px at 45% 42%);
+  margin-top: -100px;
+}
+
+// ::::::: LES ACTUALITES ::::::://
+
+// Presentation articles du blog //
+
+.titre_ligne {
+  text-align: center;
+}
+
+.titre_ligne h2 {
+  margin-top: 50px;
+}
+
+.titre_ligne .actualites {
+
+  font-family: 'Dosis';
+  font-weight: bold;
+  color: $colorYellow;
+}
+
+.titre_ligne .dubien {
+  font-family: 'Dosis';
+  font-weight: bold;
+  color: $colorDarkGreen;
+}
+
+
+// Carousel //
+
+.glide__container {
+
+
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.glide__arrows {
+  position: absolute;
+  display: block;
+  top: 15%;
+  z-index: 2;
+  // text-transform: uppercase;
+  // transition: opacity 150ms ease, border 300ms ease-in-out;
+  // transform: translateY(-50%);
+  // line-height: 1;
+  // -webkit-transition: opacity 150ms ease, border 300ms ease-in-out;
+  // -moz-transition: opacity 150ms ease, border 300ms ease-in-out;
+  // -ms-transition: opacity 150ms ease, border 300ms ease-in-out;
+  // -o-transition: opacity 150ms ease, border 300ms ease-in-out;
+  text-align: center;
+}
+
+.glide__arrow:focus {
+  outline: none
+}
+
+.glide__arrow:hover {
+  border-color: white
+}
+
+.glide__arrow--left {
+  left: 20px;
+  margin-left: -150px;
+  background-color: transparent;
+  border: none;
+  color: $colorBrown;
+  // background-color: $colorLightGreen;
+  padding: 9px 12px;
+  opacity: 1;
+  cursor: pointer;
+
+  font-size: 150px;
+  // clip-path: polygon(40% 0%, 40% 20%, 40% 20%, 40% 79%, 40% 79%, 40% 100%, 0% 50%);
+
+}
+
+.glide__arrow--right {
+  right: 20px;
+  margin-left: 1250px;
+  color: $colorBrown;
+  background-color: transparent;
+  border: none;
+  padding: 9px 12px;
+  opacity: 1;
+  cursor: pointer;
+
+  font-size: 150px;
+}
+
+.glide__arrow--disabled {
+  opacity: 0.33;
+}
+
+
+.items .item__text {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+  padding: 20px;
+  width: 500px;
+  background-color: $colorYellow;
+  font-size: 15px;
+  color: white;
+  font-family: 'Dosis';
+
+}
+
+.items .item__text .feuille {
+  float: left;
+}
+
+.items .item__text .card-title {
+
+
+  font-weight: bold;
+}
+
+
+.items .item__image .photo {
+
+  width: 500px;
+  height: 350px;
+}

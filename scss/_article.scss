@@ -1,0 +1,31 @@
+.article{
+
+    color: rgb(235, 122, 16);
+    margin-top: 20px;
+   text-align: center;
+  padding: 5px;
+   box-shadow: 0 0 10px  rgba(0,0,0, 0.63);
+    // background-color: rgb(175, 156, 143);
+  justify-content: center;
+  border-radius: 15px;
+background-color: white;
+
+
+}
+
+.ligne_article{
+    justify-content: center;
+}
+
+.article .contenu_article{
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article #h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Courgette', cursive; 
+}

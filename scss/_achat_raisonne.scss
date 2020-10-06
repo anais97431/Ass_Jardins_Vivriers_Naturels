@@ -1,0 +1,321 @@
+.achatRaiso_ligne{
+
+  padding-bottom: 40px;
+    text-align: center;
+    background-color: rgb(11, 80, 97) ;
+    justify-content: center;
+}
+
+.achatRaiso_ligne .col_img{
+
+    margin-top: 40px;
+    padding-left: 90px; 
+  }
+  
+.achatRaiso_titre{
+    background-color: rgb(11, 80, 97) ;
+    padding: 50px 20px 20px 20px;
+}
+
+
+.achatRaiso_titre .container_achatRaiso_titre{
+color: rgb(162, 247, 243) ;
+text-shadow: #193613 1px 1px, #193613 -1px 1px, #193613 -1px -1px, #193613 1px -1px;
+text-align: center;
+}
+
+.achatRaiso_ligne2{
+    
+    background-color: rgb(11, 80, 97) ;
+    text-align: center;
+    padding-top: 50px;
+}
+.achatRaiso_ligne .col_img .achatRaisonne_image{
+
+   padding-top: 30px;
+
+
+}
+.achatRaiso_ligne .col_img .achatRaisonne_image img{
+
+    border-radius: 20px;
+    box-shadow: 0 0 10px  rgba(0,0,0, 0.63);
+    width: 800px;
+}
+
+.achatRaiso_ligne2 .group_achat_lien{
+    text-align: center;
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+
+.achatRaiso_ligne2 .group_achat_lien .content_achatRaisonne{
+    font-family: 'Cutive', serif;
+    color: white;
+    font-size: 25px;
+    
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+
+@media only screen and (max-width: 575.98px) { 
+   
+      
+      .achatRaiso_ligne .col_img{
+      
+          margin-top: 40px;
+         padding-left: 0px;
+        }
+        
+    
+      
+    
+      .chatRaiso_ligne2{
+          
+          padding-top: 50px;
+      }
+      .achatRaiso_ligne .col_img .achatRaisonne_image{
+      
+         padding-top: 10px;
+         
+      
+      }
+      .achatRaiso_ligne .col_img .achatRaisonne_image img{
+      
+          border-radius: 20px;
+          box-shadow: 0 0 10px  rgba(0,0,0, 0.63);
+          width: 350px;
+      }
+      
+      .achatRaiso_ligne2 .group_achat_lien{
+          text-align: center;
+         margin-top: 20px;
+         margin-bottom: 20px;
+      }
+      
+      .achatRaiso_ligne2 .group_achat_lien .content_achatRaisonne{
+          font-family: 'Cutive', serif;
+          color: white;
+          font-size: 25px;
+          
+      }
+}
+
+
+// // Small devices (landscape phones, 576px and up)
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px){
+    .achatRaiso_ligne .col_img{
+      
+        margin-top: 40px;
+       padding-left: 0px;
+      }
+      
+  
+    
+  
+    .chatRaiso_ligne2{
+        
+        padding-top: 50px;
+    }
+    .achatRaiso_ligne .col_img .achatRaisonne_image{
+    
+       padding-top: 10px;
+       
+    
+    }
+    .achatRaiso_ligne .col_img .achatRaisonne_image img{
+    
+        border-radius: 20px;
+        box-shadow: 0 0 10px  rgba(0,0,0, 0.63);
+        width: 500px;
+    }
+    
+    .achatRaiso_ligne2 .group_achat_lien{
+        text-align: center;
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+    
+    .achatRaiso_ligne2 .group_achat_lien .content_achatRaisonne{
+        font-family: 'Cutive', serif;
+        color: white;
+        font-size: 25px;
+        
+    }
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+
+    .achatRaiso_ligne .col_img{
+      
+        margin-top: 40px;
+       padding-left: 30px;
+      }
+      
+  
+    
+  
+    .chatRaiso_ligne2{
+        
+        padding-top: 50px;
+    }
+    .achatRaiso_ligne .col_img .achatRaisonne_image{
+    
+       padding-top: 10px;
+       
+    
+    }
+    .achatRaiso_ligne .col_img .achatRaisonne_image img{
+    
+        border-radius: 20px;
+        box-shadow: 0 0 10px  rgba(0,0,0, 0.63);
+        width: 350px;
+    }
+    
+    .achatRaiso_ligne2 .group_achat_lien{
+        text-align: center;
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+    
+    .achatRaiso_ligne2 .group_achat_lien .content_achatRaisonne{
+        font-family: 'Cutive', serif;
+        color: white;
+        font-size: 25px;
+        
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .achatRaiso_ligne .col_img{
+      
+        margin-top: 40px;
+       padding-left: 40px;
+      }
+      
+  
+    
+  
+    .chatRaiso_ligne2{
+        
+        padding-top: 50px;
+    }
+    .achatRaiso_ligne .col_img .achatRaisonne_image{
+    
+       padding-top: 10px;
+       
+    
+    }
+    .achatRaiso_ligne .col_img .achatRaisonne_image img{
+    
+        border-radius: 20px;
+        box-shadow: 0 0 10px  rgba(0,0,0, 0.63);
+        width: 450px;
+    }
+    
+    .achatRaiso_ligne2 .group_achat_lien{
+        text-align: center;
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+    
+    .achatRaiso_ligne2 .group_achat_lien .content_achatRaisonne{
+        font-family: 'Cutive', serif;
+        color: white;
+        font-size: 25px;
+        
+    }
+
+ }
+
+//  // Extra large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) and (max-width: 1400px) { 
+    .achatRaiso_ligne .col_img{
+      
+        margin-top: 40px;
+       padding-left: 50px;
+      }
+      
+  
+    
+  
+    .chatRaiso_ligne2{
+        
+        padding-top: 50px;
+    }
+    .achatRaiso_ligne .col_img .achatRaisonne_image{
+    
+       padding-top: 10px;
+       
+    
+    }
+    .achatRaiso_ligne .col_img .achatRaisonne_image img{
+    
+        border-radius: 20px;
+        box-shadow: 0 0 10px  rgba(0,0,0, 0.63);
+        width: 500px;
+    }
+    
+    .achatRaiso_ligne2 .group_achat_lien{
+        text-align: center;
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+    
+    .achatRaiso_ligne2 .group_achat_lien .content_achatRaisonne{
+        font-family: 'Cutive', serif;
+        color: white;
+        font-size: 25px;
+        
+    }
+
+ }
+
+  @media only screen and (min-width: 1401px) and (max-width: 1780px) { 
+
+    .achatRaiso_ligne .col_img{
+      
+        margin-top: 40px;
+       padding-left: 60px;
+      }
+      
+  
+    
+  
+    .chatRaiso_ligne2{
+        
+        padding-top: 50px;
+    }
+    .achatRaiso_ligne .col_img .achatRaisonne_image{
+    
+       padding-top: 10px;
+       
+    
+    }
+    .achatRaiso_ligne .col_img .achatRaisonne_image img{
+    
+        border-radius: 20px;
+        box-shadow: 0 0 10px  rgba(0,0,0, 0.63);
+        width: 600px;
+    }
+    
+    .achatRaiso_ligne2 .group_achat_lien{
+        text-align: center;
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+    
+    .achatRaiso_ligne2 .group_achat_lien .content_achatRaisonne{
+        font-family: 'Cutive', serif;
+        color: white;
+        font-size: 25px;
+        
+    }
+
+ }

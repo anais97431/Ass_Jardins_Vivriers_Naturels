@@ -1,0 +1,84 @@
+.alerte-password-false-modal,
+.alerte-password-securite-modal,
+.alerte-login-non-existant,
+
+.alerte-login-exist-modal,
+.alerte-login-false-modal {
+
+    color: rgb(163, 42, 42);
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+// MODAL CONNEXION //
+.modal-header #modal-title-connection {
+    color: white;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-header .close .x {
+    font-size: 50px;
+    color: white;
+
+    &:hover {
+        color: rgb(126, 223, 194);
+    }
+}
+
+.modal-footer,
+.modal-header {
+    background-color: rgb(21, 124, 110);
+    color: white;
+}
+
+.btn-register-oublie {
+    margin-top: 20px;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.modal-footer .adhesion {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.modal-body .btn-modal-connect,
+.modal-body #link-forgot-pass {
+    border-radius: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(21, 124, 110);
+    border: rgb(21, 124, 110);
+    width: 250px;
+}
+
+.modal-footer #createCompte {
+    border-radius: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color: rgb(21, 124, 110);
+    padding: 10px;
+    background-color: white;
+    border: white;
+    margin-top: 20px;
+    width: 200px;
+    font-size: 15px;
+}

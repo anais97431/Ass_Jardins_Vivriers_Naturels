@@ -1,0 +1,280 @@
+.emplette_ligne {
+
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.emplette_ligne .achat_raisonne,
+.emplette_ligne .vente_direct {
+
+    border: 1px solid rgb(136, 238, 170);
+    text-align: center;
+
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    //    background-image: url(../photos/images_boutique/image_bandeau/panier_groupe_achat.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
+
+    &:hover {
+
+        opacity: .5;
+    }
+}
+
+
+.emplette_ligne .achat_raisonne h4,
+.emplette_ligne .vente_direct h4 {
+    font-family: 'Cutive', serif;
+    margin-top: 100px;
+    font-weight: bold;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+
+}
+
+.emplette_ligne .groupAchat_ligne .group_achat_lien h2 {
+    font-family: 'Cutive', serif;
+    margin-top: 200px;
+    font-weight: bold;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+
+}
+
+.emplette_ligne .achatRaisonne_ligne a,
+.emplette_ligne .venteDirect_ligne a,
+.emplette_ligne .groupAchat_ligne a {
+
+    text-decoration: none;
+    color: rgb(136, 238, 170);
+
+
+}
+
+.emplette_ligne .group_achat_lien {
+
+    border: 1px solid;
+    text-align: center;
+
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    // background-image: url(../photos/images_boutique/image_bandeau/groupement_achat.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+    border-radius: 20px;
+    width: 1000px;
+    height: 550px;
+
+    &:hover {
+
+        opacity: .5;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+
+@media only screen and (max-width: 575.98px) {
+    .emplette_ligne .group_achat_lien {
+        width: 300px;
+        height: 150px;
+        margin-left: 30px;
+    }
+
+    .emplette_ligne .groupAchat_ligne .group_achat_lien h2 {
+        font-family: 'Cutive', serif;
+        margin-top: 50px;
+
+
+
+    }
+
+    .emplette_ligne .achat_raisonne,
+    .emplette_ligne .vente_direct {
+
+        width: 300px;
+        height: 150px;
+        margin-left: 30px;
+
+    }
+
+    .emplette_ligne .achat_raisonne h4,
+    .emplette_ligne .vente_direct h4 {
+        font-family: 'Cutive', serif;
+        margin-top: 50px;
+
+
+    }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .emplette_ligne .group_achat_lien {
+        width: 500px;
+        height: 250px;
+        margin-left: 40px;
+    }
+
+    .emplette_ligne .groupAchat_ligne .group_achat_lien h2 {
+        font-family: 'Cutive', serif;
+        margin-top: 90px;
+
+
+    }
+
+    .emplette_ligne .achat_raisonne,
+    .emplette_ligne .vente_direct {
+
+        width: 500px;
+        height: 250px;
+        margin-left: 40px;
+    }
+
+    .emplette_ligne .achat_raisonne h4,
+    .emplette_ligne .vente_direct h4 {
+        font-family: 'Cutive', serif;
+        margin-top: 120px;
+
+
+    }
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+    .emplette_ligne .group_achat_lien {
+        width: 400px;
+        height: 400px;
+    }
+
+    .emplette_ligne .groupAchat_ligne .group_achat_lien h2 {
+        font-family: 'Cutive', serif;
+        margin-top: 150px;
+
+
+    }
+
+    .emplette_ligne .achat_raisonne,
+    .emplette_ligne .vente_direct {
+
+        width: 250px;
+        height: 180px;
+
+
+    }
+
+    .emplette_ligne .achat_raisonne h4,
+    .emplette_ligne .vente_direct h4 {
+        font-family: 'Cutive', serif;
+        margin-top: 50px;
+
+
+    }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+    .emplette_ligne .group_achat_lien {
+        width: 500px;
+        height: 350px;
+    }
+
+    .emplette_ligne .groupAchat_ligne .group_achat_lien h2 {
+        font-family: 'Cutive', serif;
+        margin-top: 150px;
+
+
+    }
+
+    .emplette_ligne .achat_raisonne,
+    .emplette_ligne .vente_direct {
+
+        width: 300px;
+        height: 150px;
+
+    }
+
+    .emplette_ligne .achat_raisonne h4,
+    .emplette_ligne .vente_direct h4 {
+        font-family: 'Cutive', serif;
+        margin-top: 50px;
+
+
+    }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .emplette_ligne .group_achat_lien {
+        width: 600px;
+        height: 450px;
+    }
+
+    .emplette_ligne .groupAchat_ligne .group_achat_lien h2 {
+        font-family: 'Cutive', serif;
+        margin-top: 180px;
+
+
+    }
+
+    .emplette_ligne .achat_raisonne,
+    .emplette_ligne .vente_direct {
+
+        width: 350px;
+        height: 200px;
+
+    }
+
+    .emplette_ligne .achat_raisonne h4,
+    .emplette_ligne .vente_direct h4 {
+        font-family: 'Cutive', serif;
+        margin-top: 80px;
+
+
+    }
+
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1780px) {
+
+    .emplette_ligne .group_achat_lien {
+        width: 750px;
+        height: 550px;
+    }
+
+    .emplette_ligne .groupAchat_ligne .group_achat_lien h2 {
+        font-family: 'Cutive', serif;
+        margin-top: 200px;
+
+
+    }
+
+    .emplette_ligne .achat_raisonne,
+    .emplette_ligne .vente_direct {
+
+        width: 450px;
+        height: 250px;
+
+    }
+
+    .emplette_ligne .achat_raisonne h4,
+    .emplette_ligne .vente_direct h4 {
+        font-family: 'Cutive', serif;
+        margin-top: 100px;
+
+
+    }
+
+
+}

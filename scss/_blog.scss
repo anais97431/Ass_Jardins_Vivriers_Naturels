@@ -1,0 +1,75 @@
+.row_blog{
+  
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(192, 192, 192, 0.466);
+}
+
+
+// test image blog
+
+@import url(https://fonts.googleapis.com/css?family=Lora);
+body {
+  //background-color:rgba(0,0,0,0.10);
+  font-size:1em;
+  font-family: 'Lora', serif;
+}
+section {width:100%; padding:5% 0px;}
+a, a:hover {text-decoration:none;}
+.item {margin:0px auto;}
+
+/* ---- UI Style ----- */
+.item {background-color:#fff; width:350px;}
+.item .image {overflow:hidden; }
+.item .image img {
+  width:100%;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.image:hover img {
+  opacity:0.7;
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+.item .text {padding:2em; }
+.item .text .author {
+  position:absolute;
+  top:-63px;
+  left:-6px;
+  z-index:10;
+}
+.item .text .author img {
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  border:solid 6px rgba(255,255,255,0.70);
+  background-color: rgba(251, 255, 255, 0.466);
+}
+.item .text figcaption {position:relative; z-index:1; }
+.item .text h3 {margin:0px; }
+.item .text a {color:rgba(0,0,0,0.70);}
+.item .text p {
+  color:rgba(0,0,0,0.70); 
+  line-height:22px; 
+  font-weight:300;
+  font-size:13px;
+}
+.item .text i {
+  color:rgba(0,0,0,0.60); 
+  font-size:13px;
+}
+
+/* ---- Responsive Code ---- */
+@media (max-width: 768px) {
+  .item {width:300px;}
+}
+
+/* ---- UI Style Ent ----- */

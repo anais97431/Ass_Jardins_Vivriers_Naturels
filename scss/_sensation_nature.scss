@@ -1,0 +1,211 @@
+.sensation_nature_ligne {
+
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.sensation_nature_ligne .les_cherubins_col,
+.sensation_nature_ligne .ateliers_formations_col,
+.sensation_nature_ligne .conference_sortie_col {
+
+    border: 1px solid rgb(238, 231, 136);
+    text-align: center;
+
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    //    background-image: url(../photos/images_boutique/image_bandeau/panier_groupe_achat.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+    border-radius: 20px;
+    width: 500px;
+    height: 580px;
+
+    &:hover {
+
+        opacity: .5;
+    }
+}
+
+.sensation_nature_ligne .conference_sortie_col {
+
+    background-image: url(../photos/images_sensation_nature/Retouche_1.png);
+    size: cover;
+}
+
+.sensation_nature_ligne .les_cherubins_col {
+
+    background-image: url(../photos/images_sensation_nature/Retouche_2.png);
+    size: cover;
+}
+
+.sensation_nature_ligne .ateliers_formations_col {
+
+    background-image: url(../photos/images_sensation_nature/Retouche_3.png);
+    size: cover;
+}
+
+.sensation_nature_ligne .les_cherubins_lien h1,
+.sensation_nature_ligne .atelier_formation_lien h1,
+.sensation_nature_ligne .conferences_sorties_lien h1 {
+    font-family: 'Cutive', serif;
+    margin-top: 450px;
+    font-weight: bold;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+
+}
+
+
+
+.sensation_nature_ligne .les_cherubins_col a,
+.sensation_nature_ligne .ateliers_formations_col a,
+.sensation_nature_ligne .conference_sortie_col a {
+
+    text-decoration: none;
+    color: rgb(238, 231, 136);
+
+
+}
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+
+@media only screen and (max-width: 575.98px) {
+
+    .sensation_nature_ligne .les_cherubins_col,
+    .sensation_nature_ligne .ateliers_formations_col,
+    .sensation_nature_ligne .conference_sortie_col {
+
+        background-size: cover;
+        width: 250px;
+        height: 380px;
+
+    }
+
+    .sensation_nature_ligne .les_cherubins_lien h1,
+    .sensation_nature_ligne .atelier_formation_lien h1,
+    .sensation_nature_ligne .conferences_sorties_lien h1 {
+        font-family: 'Cutive', serif;
+        margin-top: 250px;
+        font-size: 32px;
+    }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+    .sensation_nature_ligne .les_cherubins_col,
+    .sensation_nature_ligne .ateliers_formations_col,
+    .sensation_nature_ligne .conference_sortie_col {
+
+        background-size: cover;
+
+        margin-left: 20px;
+    }
+
+    .sensation_nature_ligne .les_cherubins_lien h1,
+    .sensation_nature_ligne .atelier_formation_lien h1,
+    .sensation_nature_ligne .conferences_sorties_lien h1 {
+        font-family: 'Cutive', serif;
+        margin-top: 450px;
+        font-size: 35px;
+    }
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+    .sensation_nature_ligne .les_cherubins_col,
+    .sensation_nature_ligne .ateliers_formations_col,
+    .sensation_nature_ligne .conference_sortie_col {
+
+        background-size: cover;
+
+        margin-left: 100px;
+    }
+
+    .sensation_nature_ligne .les_cherubins_lien h1,
+    .sensation_nature_ligne .atelier_formation_lien h1,
+    .sensation_nature_ligne .conferences_sorties_lien h1 {
+        font-family: 'Cutive', serif;
+        margin-top: 450px;
+
+    }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+    .sensation_nature_ligne .les_cherubins_col,
+    .sensation_nature_ligne .ateliers_formations_col,
+    .sensation_nature_ligne .conference_sortie_col {
+
+        background-size: cover;
+        width: 300px;
+        height: 480px;
+        margin-left: 20px;
+        margin-bottom: 80px;
+        margin-top: 60px;
+    }
+
+    .sensation_nature_ligne .les_cherubins_lien h1,
+    .sensation_nature_ligne .atelier_formation_lien h1,
+    .sensation_nature_ligne .conferences_sorties_lien h1 {
+        font-family: 'Cutive', serif;
+        margin-top: 400px;
+        font-size: 28px;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    .sensation_nature_ligne .les_cherubins_col,
+    .sensation_nature_ligne .ateliers_formations_col,
+    .sensation_nature_ligne .conference_sortie_col {
+
+        background-size: cover;
+        width: 350px;
+        height: 500px;
+        margin-left: 20px;
+        margin-bottom: 60px;
+        margin-top: 80px;
+    }
+
+    .sensation_nature_ligne .les_cherubins_lien h1,
+    .sensation_nature_ligne .atelier_formation_lien h1,
+    .sensation_nature_ligne .conferences_sorties_lien h1 {
+        font-family: 'Cutive', serif;
+        margin-top: 380px;
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1780px) {
+
+    .sensation_nature_ligne .les_cherubins_col,
+    .sensation_nature_ligne .ateliers_formations_col,
+    .sensation_nature_ligne .conference_sortie_col {
+
+        background-size: cover;
+        width: 420px;
+        height: 600px;
+        margin-left: 20px;
+    }
+
+    .sensation_nature_ligne .les_cherubins_lien h1,
+    .sensation_nature_ligne .atelier_formation_lien h1,
+    .sensation_nature_ligne .conferences_sorties_lien h1 {
+        font-family: 'Cutive', serif;
+        margin-top: 500px;
+        font-size: 40px;
+    }
+
+}

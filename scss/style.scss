@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline-color: rgb(178, 250, 106) !important;
+
+}
+
+body {
+    background-image: url(../photos/logo_svg/Fond-site-degrade.png);
+}
+
+@font-face {
+    font-family: 'Pacifico Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+    font-display: swap;
+}
+
+// .card_product a{
+//     size: 50px;
+//         margin: 20px;
+
+//     }
+
+//     .card_product h5, p{
+//     text-align: center;
+//         margin: 20px;
+//     }
+
+
+
+
+@import"_var.scss";
+@import "_header.scss";
+@import"_contact.scss";
+@import "_groupement_achat.scss";
+@import "_login.scss";
+@import "_index.scss";
+@import "_category.scss";
+@import "_product.scss";
+@import "_cart.scss";
+@import "_compte.scss";
+@import"_user.scss";
+@import"_admin.scss";
+@import"_footer.scss";
+@import"_recherche.scss";
+@import"_modals.scss";
+@import"_article.scss";
+@import"_blog.scss";
+@import"_navbar.scss";
+@import"_navbar_vertical.scss";
+@import"_admin_pages.scss";
+@import"_emplettes_solidaires.scss";
+@import"_achat_raisonne.scss";
+@import"_header_admin.scss";
+@import"_sensation_nature.scss";
+@import"_bandeau_entete_index.scss";
+@import"_admin_boutique.scss";
